@@ -1,0 +1,7 @@
+menu_item_add_icon.settings_form:
+  path: '/admin/config/system/menu-item-add-icon'
+  defaults:
+    _title: 'menu item add icon settings'
+    _form: 'Drupal\menu_item_add_icon\Form\SettingsForm'
+  requirements:
+    _permission: 'administer menu_item_add_icon configuration'

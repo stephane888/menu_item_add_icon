@@ -1,0 +1,6 @@
+menu_item_add_icon.settings_form:
+  title: menu item add icon
+  description: Configure menu item add icon.
+  parent: system.admin_config_system
+  route_name: menu_item_add_icon.settings_form
+  weight: 10

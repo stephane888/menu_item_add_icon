@@ -1,0 +1,13 @@
+services:
+#  menu.default_tree_manipulators:
+#    class: Drupal\menu_item_add_icon\MenuItemAddIconMenuLinkTreeManipulators
+#    arguments: ['@access_manager', '@current_user', '@entity_type.manager']
+
+  menu_item_add_icon_decorating:
+    class: Drupal\menu_item_add_icon\MenuItemAddIconDecorating
+    arguments: ['@access_manager', '@current_user', '@entity_type.manager']
+    decorates: menu.default_tree_manipulators
+    decoration_priority: 50
+#    calls:
+#      - [setAdminContext, ['@router.admin_context']]
+#      - [setConfigFactory, ['@config.factory']]

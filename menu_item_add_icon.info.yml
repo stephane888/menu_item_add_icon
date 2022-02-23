@@ -1,0 +1,6 @@
+name: menu item add icon
+type: module
+description: ajouter une icone sur chaque element du menu principal
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
